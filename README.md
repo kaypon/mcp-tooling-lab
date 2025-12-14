@@ -1,3 +1,17 @@
+## Executive Overview
+
+This service demonstrates how modern AI systems can securely interact with real data and internal tools using the Model Context Protocol (MCP).
+
+It exposes a small set of AI-accessible capabilities — generating embeddings, indexing documents, and performing semantic search — backed by a vector database. An AI agent can use these tools to retrieve relevant information on demand, rather than relying on static training data.
+
+In practical terms, this pattern enables use cases such as:
+- internal knowledge assistants
+- customer support copilots
+- AI-powered search over company documents
+- agent workflows that safely access enterprise data
+
+This project mirrors how AI tooling is deployed in production environments where models must interact with real systems in a controlled, auditable way.
+
 # MCP Tooling Lab (Node.js)
 
 This project implements a custom **Model Context Protocol (MCP)** server in Node.js that exposes tools for:
